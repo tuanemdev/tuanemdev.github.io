@@ -1,5 +1,14 @@
 [book]
-authors = ["Nguyễn Tuấn Anh"]
-language = "vi"
-src = "src"
 title = "Sổ Tay Swift"
+authors = ["Nguyễn Tuấn Anh"]
+description = "Sổ tay lập trình liên quan đến ngôn ngữ Swift."
+src = "src"
+language = "vi"
+text-direction = "ltr"
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.html.code.hidelines]
+swift = "#"
